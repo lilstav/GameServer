@@ -7,7 +7,7 @@ namespace LeagueSandbox.GameServer.Logic.Chatbox.Commands
     {
         private readonly PlayerManager _playerManager;
 
-        public override string Command => "revive";
+        public override string Command => "respawn";
         public override string Syntax => $"{Command}";
 
         public ReviveCommand(ChatCommandManager chatCommandManager, PlayerManager playerManager)

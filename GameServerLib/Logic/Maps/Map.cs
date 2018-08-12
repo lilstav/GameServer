@@ -60,7 +60,6 @@ namespace LeagueSandbox.GameServer.Logic.Maps
                 // [6] = typeof(WinterRift),
                 // [8] = typeof(CrystalScar),
                 // [10] = typeof(NewTwistedTreeline),
-                // [11] = typeof(NewSummonersRift),
                 // [12] = typeof(HowlingAbyss),
                 // [14] = typeof(ButchersBridge)
             };

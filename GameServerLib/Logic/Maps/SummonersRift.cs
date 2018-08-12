@@ -13,73 +13,83 @@ namespace LeagueSandbox.GameServer.Logic.Maps
     {
         private static readonly List<Vector2> BLUE_TOP_WAYPOINTS = new List<Vector2>
         {
-            new Vector2(917.0f, 1725.0f),
-            new Vector2(1170.0f, 4041.0f),
-            new Vector2(861.0f, 6459.0f),
-            new Vector2(880.0f, 10180.0f),
-            new Vector2(1268.0f, 11675.0f),
-            new Vector2(2806.0f, 13075.0f),
-            new Vector2(3907.0f, 13243.0f),
-            new Vector2(7550.0f, 13407.0f),
-            new Vector2(10244.0f, 13238.0f),
-            new Vector2(10947.0f, 13135.0f),
-            new Vector2(12511.0f, 12776.0f)
+            new Vector2(1118.989f, 2082.105f),
+            new Vector2(1475.725f, 4284.732f),
+            new Vector2(1170.178f, 6635.276f),
+            new Vector2(1254.696f, 10362.6f),
+            new Vector2(1433.61f, 11615.48f),
+            new Vector2(2102.231f, 12525.56f),
+            new Vector2(3113.075f, 13305.71f),
+            new Vector2(4230.007f, 13464.23f),
+            new Vector2(7663.801f, 13627.43f),
+            new Vector2(10466.06f, 13351.26f),
+            new Vector2(12790.75f, 13748.61f)
         };
         private static readonly List<Vector2> BLUE_BOT_WAYPOINTS = new List<Vector2>
         {
-            new Vector2(1487.0f, 1302.0f),
-            new Vector2(3789.0f, 1346.0f),
-            new Vector2(6430.0f, 1005.0f),
-            new Vector2(10995.0f, 1234.0f),
-            new Vector2(12841.0f, 3051.0f),
-            new Vector2(13148.0f, 4202.0f),
-            new Vector2(13249.0f, 7884.0f),
-            new Vector2(12886.0f, 10356.0f),
-            new Vector2(12511.0f, 12776.0f)
+            new Vector2(2054.545f, 1174.528f),
+            new Vector2(3436.437f, 947.2966f),
+            new Vector2(6918.244f, 1189.622f),
+            new Vector2(10481.45f, 1283.461f),
+            new Vector2(11593.5f, 1479.206f),
+            new Vector2(12745.49f, 2477.221f),
+            new Vector2(13317.6f, 3275.311f),
+            new Vector2(13552.65f, 4492.224f),
+            new Vector2(13623.62f, 8220.113f),
+            new Vector2(13872.56f, 11328.7f),
+            new Vector2(13720.09f, 12853.67f)
         };
         private static readonly List<Vector2> BLUE_MID_WAYPOINTS = new List<Vector2>
         {
-            new Vector2(1418.0f, 1686.0f),
-            new Vector2(2997.0f, 2781.0f),
-            new Vector2(4472.0f, 4727.0f),
-            new Vector2(8375.0f, 8366.0f),
-            new Vector2(10948.0f, 10821.0f),
-            new Vector2(12511.0f, 12776.0f)
+            new Vector2(2041.072f, 2068.447f),
+            new Vector2(3402.388f, 2980.479f),
+            new Vector2(4834.421f, 4996.653f),
+            new Vector2(6053.542f, 6133.397f),
+            new Vector2(7475.346f, 7391.124f),
+            new Vector2(8734.588f, 8665.224f),
+            new Vector2(10008.18f, 9911.293f),
+            new Vector2(11373.97f, 11887.83f),
+            new Vector2(12751.62f, 12799.5f)
         };
         private static readonly List<Vector2> RED_TOP_WAYPOINTS = new List<Vector2>
         {
-            new Vector2(12451.0f, 13217.0f),
-            new Vector2(10947.0f, 13135.0f),
-            new Vector2(10244.0f, 13238.0f),
-            new Vector2(7550.0f, 13407.0f),
-            new Vector2(3907.0f, 13243.0f),
-            new Vector2(2806.0f, 13075.0f),
-            new Vector2(1268.0f, 11675.0f),
-            new Vector2(880.0f, 10180.0f),
-            new Vector2(861.0f, 6459.0f),
-            new Vector2(1170.0f, 4041.0f),
-            new Vector2(1418.0f, 1686.0f)
+            new Vector2(12790.75f, 13748.61f),
+            new Vector2(10466.06f, 13351.26f),
+            new Vector2(7663.801f, 13627.43f),
+            new Vector2(4230.007f, 13464.23f),
+            new Vector2(3113.075f, 13305.71f),
+            new Vector2(2102.231f, 12525.56f),
+            new Vector2(1433.61f, 11615.48f),
+            new Vector2(1254.696f, 10362.6f),
+            new Vector2(1170.178f, 6635.276f),
+            new Vector2(1475.725f, 4284.732f),
+            new Vector2(1118.989f, 2082.105f)
         };
         private static readonly List<Vector2> RED_BOT_WAYPOINTS = new List<Vector2>
         {
-            new Vector2(13062.0f, 12760.0f),
-            new Vector2(12886.0f, 10356.0f),
-            new Vector2(13249.0f, 7884.0f),
-            new Vector2(13148.0f, 4202.0f),
-            new Vector2(12841.0f, 3051.0f),
-            new Vector2(10995.0f, 1234.0f),
-            new Vector2(6430.0f, 1005.0f),
-            new Vector2(3789.0f, 1346.0f),
-            new Vector2(1418.0f, 1686.0f)
+            new Vector2(13720.09f, 12853.67f),
+            new Vector2(13872.56f, 11328.7f),
+            new Vector2(13623.62f, 8220.113f),
+            new Vector2(13552.65f, 4492.224f),
+            new Vector2(13317.6f, 3275.311f),
+            new Vector2(12745.49f, 2477.221f),
+            new Vector2(11593.5f, 1479.206f),
+            new Vector2(10481.45f, 1283.461f),
+            new Vector2(6918.244f, 1189.622f),
+            new Vector2(3436.437f, 947.2966f),
+            new Vector2(2054.545f, 1174.528f)
         };
         private static readonly List<Vector2> RED_MID_WAYPOINTS = new List<Vector2>
         {
-            new Vector2(12511.0f, 12776.0f),
-            new Vector2(10948.0f, 10821.0f),
-            new Vector2(8375.0f, 8366.0f),
-            new Vector2(4472.0f, 4727.0f),
-            new Vector2(2997.0f, 2781.0f),
-            new Vector2(1418.0f, 1686.0f)
+            new Vector2(12751.62f, 12799.5f),
+            new Vector2(11373.97f, 11887.83f),
+            new Vector2(10008.18f, 9911.293f),
+            new Vector2(8734.588f, 8665.224f),
+            new Vector2(7475.346f, 7391.124f),
+            new Vector2(6053.542f, 6133.397f),
+            new Vector2(4834.421f, 4996.653f),
+            new Vector2(3402.388f, 2980.479f),
+            new Vector2(2041.072f, 2068.447f)
         };
 
         private static readonly List<MinionSpawnType> REGULAR_MINION_WAVE = new List<MinionSpawnType>
@@ -125,14 +135,14 @@ namespace LeagueSandbox.GameServer.Logic.Maps
 
         private static readonly Dictionary<TeamId, Vector3> _endGameCameraPosition = new Dictionary<TeamId, Vector3>
         {
-            { TeamId.TEAM_BLUE, new Vector3(1170, 1470, 188) },
-            { TeamId.TEAM_PURPLE, new Vector3(12800, 13100, 110) }
+           { TeamId.TEAM_BLUE, new Vector3(1549.357f, 1641.553f, 188) },
+            { TeamId.TEAM_PURPLE, new Vector3(13231.74f, 13269.85f, 110) }
         };
 
         private static readonly Dictionary<TeamId, Target> _spawnsByTeam = new Dictionary<TeamId, Target>
         {
-            {TeamId.TEAM_BLUE, new Target(25.90f, 280)},
-            {TeamId.TEAM_PURPLE, new Target(13948, 14202)}
+         {TeamId.TEAM_BLUE, new Target(411.3218f, 397.2352f)},
+            {TeamId.TEAM_PURPLE, new Target(14301.51f, 14367.99f)}
         };
 
         private static readonly Dictionary<TurretType, int[]> _turretItems = new Dictionary<TurretType, int[]>
@@ -395,9 +405,7 @@ namespace LeagueSandbox.GameServer.Logic.Maps
             var dic = new Dictionary<MinionSpawnType, float>
             {
                 { MinionSpawnType.MINION_TYPE_MELEE, 19.8f + 0.2f * (int)(_game.GameTime / (90 * 1000)) },
-                { MinionSpawnType.MINION_TYPE_CASTER, 16.8f + 0.2f * (int)(_game.GameTime / (90 * 1000)) },
-                { MinionSpawnType.MINION_TYPE_CANNON, 40.0f + 0.5f * (int)(_game.GameTime / (90 * 1000)) },
-                { MinionSpawnType.MINION_TYPE_SUPER, 40.0f + 1.0f * (int)(_game.GameTime / (180 * 1000)) }
+                { MinionSpawnType.MINION_TYPE_CASTER, 16.8f + 0.2f * (int)(_game.GameTime / (90 * 1000)) }
             };
 
             if (!dic.ContainsKey(m.getType()))

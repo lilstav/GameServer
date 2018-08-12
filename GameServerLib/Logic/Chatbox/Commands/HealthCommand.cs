@@ -8,7 +8,7 @@ namespace LeagueSandbox.GameServer.Logic.Chatbox.Commands
     {
         private readonly PlayerManager _playerManager;
 
-        public override string Command => "health";
+        public override string Command => "hp";
         public override string Syntax => $"{Command} maxHealth";
 
         public HealthCommand(ChatCommandManager chatCommandManager, PlayerManager playerManager) 
